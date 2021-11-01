@@ -431,7 +431,7 @@ nav input[type=checkbox]{
         width: 0;
     }
     to{
-        width: 12.5em;
+        width: 12em;
     }
 }
 @keyframes Cursordigitacao{
