@@ -137,6 +137,12 @@ img{
     background: linear-gradient(-45deg, #1f4d6f, #0d3e63, #2691e2, #2f6ac4) no-repeat;
     background-size: 300% 300%;
 }
+.artigo1{
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;  
+}
 @keyframes gradient{
     0%{
         background-position: 0 50%;
