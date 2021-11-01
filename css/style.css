@@ -12,6 +12,8 @@ body {
 }
 header {
     position: fixed;
+    top: 0;
+    left 0;
     width: 180px;
     padding: 15px 0;
     background-color: rgb(24, 24, 24);
