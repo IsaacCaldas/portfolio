@@ -123,6 +123,12 @@ img{
 .artigo-filho{
     margin-bottom: 50px;
 }
+.artigo1{
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;  
+}
 .formatacao-perfil a{
     color: #fff;
     font-size: 0.8em;
@@ -136,12 +142,6 @@ img{
     animation: gradient 10s ease infinite;
     background: linear-gradient(-45deg, #1f4d6f, #0d3e63, #2691e2, #2f6ac4) no-repeat;
     background-size: 300% 300%;
-}
-.artigo1{
-    -webkit-user-select: none;  
-    -moz-user-select: none;     
-    -ms-user-select: none;      
-    user-select: none;  
 }
 @keyframes gradient{
     0%{
@@ -431,7 +431,7 @@ nav input[type=checkbox]{
         width: 0;
     }
     to{
-        width: 13.7em;
+        width: 10em;
     }
 }
 @keyframes Cursordigitacao{
@@ -590,6 +590,14 @@ nav input[type=checkbox]{
         margin: 0 0 20px 0;
         word-break: break-word;
     }
+    @keyframes escrevendo{
+    from{
+        width: 0;
+    }
+    to{
+        width: 13.7em;
+    }
+}
 }
 
 
